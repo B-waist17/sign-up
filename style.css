@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+.signin {
+    width: 323px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signin p {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+.signin button {
+    width: 120px;
+    height: 44px;
+    background: #6707E2;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#form {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+#stage1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+#stage2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+#stage3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+.progressBar {
+    width: 166px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+}
+.progressBar div {
+    color: #FFFFFF;
+}
+
+.circle {
+    width: 34px;
+    height: 34px;
+    background: #D9D9D9;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.circleActive {
+    width: 34px;
+    height: 34px;
+    background: #6707E2;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 44px;
+}
+
+input {
+    width: 440px;
+    height: 60px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.stage1 .buttons {
+    width: 440px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    margin-top: 40px;
+}
+.stage2 .buttons {
+    width: 440px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.stage3 .buttons {
+    width: 440px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.buttons {
+    width: 440px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+#next {
+    width: 114px;
+    height: 40px;
+    background: #6707E2;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+#back {
+    width: 114px;
+    height: 40px;
+    border: 1px solid #6707E2;
+    border-radius: 8px;
+    color: #6707E2;
+    background: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;    
+}
+.signUp {
+    width: 167px;
+    height: 40px;
+    background: #6707E2;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}

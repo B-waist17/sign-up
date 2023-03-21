@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <img src="./Cindy.png" alt="logo">
+            <div class="signin">
+                <p>Already have an account?</p>
+                <button>Sign in</button>
+            </div>
+        </div><br><br><br>
+        <form id="form">
+            <div id="stage1">
+                <div class="progressBar">
+                    <div class="circleActive">1</div>
+                    <div class="circle">2</div>
+                    <div class="circle">3</div>
+                </div>
+                <h3>Sign Up Info</h3>
+                <div class="form">
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password"><br><br>
+                    <label for="cPassword">Confirm Password</label><br>
+                    <input type="password" id="cPassword" name="cpassword">
+                </div>
+                <!-- <div class="buttons">
+                    <button class="next">Next<i class="fa fa-arrow-right" style="margin-left: 16px;"></i></button>
+                </div> -->
+                
+            </div>
+            <div id="stage2">
+                <div class="progressBar">
+                    <div class="circleActive">1</div>
+                    <div class="circleActive">2</div>
+                    <div class="circle">3</div>
+                </div>
+                <h3>Personal Info</h3>
+                <div class="form">
+                    <label for="userName">User Name</label><br>
+                    <input type="text" id="userName" name="userName"><br><br>
+                    <label for="firstName">First Name</label><br>
+                    <input type="text" id="firstName" name="firstName"><br><br>
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <!-- <div class="buttons">
+                    <button class="back"><i class="fa fa-arrow-left" style="margin-right: 16px;"></i>Back</button>
+                    <button class="next">Next<i class="fa fa-arrow-right" style="margin-left: 16px;"></i></button>
+                </div> -->
+                
+            </div>
+            <div id="stage3">
+                <div class="progressBar">
+                    <div class="circleActive">1</div>
+                    <div class="circleActive">2</div>
+                    <div class="circleActive">3</div>
+                </div>
+                <h3>Professional Info</h3>
+                <div class="form">
+                    <label for="company">Current Company</label><br>
+                    <input type="text" id="company" name="company"><br><br>
+                    <label for="experience">Total Experience</label><br>
+                    <input type="text" id="experience" name="experience"><br><br>
+                    <label for="designation">Designation</label><br>
+                    <input type="text" id="designation" name="designation">
+                </div>            
+                <!-- <div class="buttons">
+                    <button class="back"><i class="fa fa-arrow-left" style="margin-right: 16px;"></i>Back</button>
+                    <button class="signUp">Sign Up<i class="fa fa-arrow-right" style="margin-left: 16px;"></i></button>
+                </div> -->
+                
+            </div>   
+            <div class="buttons"> 
+                <button type="button" id="back"><i class="fa fa-arrow-left" style="margin-right: 16px;"></i>Back</button>
+                <button type="button" id="next">Next<i class="fa fa-arrow-right" style="margin-left: 16px;"></i></button>
+            </div>         
+
+            
+        </form>
+    </div>
+</body>
+<script src="./Cindy.js"></script>
+</html>
